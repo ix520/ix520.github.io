@@ -8,7 +8,7 @@
       <link href="/post/20240510234429.html"/>
       <url>/post/20240510234429.html</url>
       
-        <content type="html"><![CDATA[<p>无聊逛b站，看到有人拿移动云手机使用termux搭建alist，有公网ip，可以外网访问</p><p>试了试拿ksweb建站，现在还不能改端口，root后可以，具体怎么root b站也有教程</p><p>termux搭建alist还是太麻烦，直接下载安卓版本的alist，打开alist可以直接使用</p><p>现在还不能直接外网访问，root后可以把云手机上ksweb，或alist的端口改成10001，然后在自己的手机（不是云手机）。<br>使用抓包软件可以抓出ip和端口，直接浏览器访问抓出的ip和端口，就可以打开搭建的网站或者alis</p><p>注:移动云手机每天免费4小时<del>4小时</del>，千兆宽带。<br>实名机，干坏事就别想了.<br><img src="/images/%E7%A7%BB%E5%8A%A8%E4%BA%91%E6%89%8B%E6%9C%BA.jpg" alt="img"></p>]]></content>
+        <content type="html"><![CDATA[<p>无聊逛b站，看到有人拿移动云手机使用termux搭建alist，有公网ip，可以外网访问</p><p>试了试拿ksweb建站，现在还不能改端口，root后可以，具体怎么root b站也有教程</p><p>termux搭建alist还是太麻烦，直接下载安卓版本的alist，打开alist可以直接使用</p><p>现在还不能直接外网访问，root后可以把云手机上ksweb，或alist的端口改成10001，然后在自己的手机（不是云手机）。<br>使用抓包软件可以抓出ip和端口，直接浏览器访问抓出的ip和端口，就可以打开搭建的网站或者alis</p><p>注:移动云手机每天免费1小时<del>4小时</del>，千兆宽带。<br>实名机，干坏事就别想了.<br><img src="/images/%E7%A7%BB%E5%8A%A8%E4%BA%91%E6%89%8B%E6%9C%BA.jpg" alt="img"></p>]]></content>
       
       
       
