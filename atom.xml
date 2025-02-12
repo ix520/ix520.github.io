@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://lovenan.me</id>
+    <title>hello-喃娘👑-博客</title>
+    <updated>2025-02-12T11:12:14.734Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://lovenan.me"/>
+    <link rel="self" href="https://lovenan.me/atom.xml"/>
+    <subtitle>喃娘👑
+
+</subtitle>
+    <logo>https://lovenan.me/images/avatar.png</logo>
+    <icon>https://lovenan.me/favicon.ico</icon>
+    <rights>All rights reserved 2025, hello-喃娘👑-博客</rights>
+    <entry>
+        <title type="html"><![CDATA[给你的网站添加原神启动/启动动画]]></title>
+        <id>https://lovenan.me/post/gei-ni-de-wang-zhan-tian-jia-yuan-shen-qi-dong-qi-dong-dong-hua/</id>
+        <link href="https://lovenan.me/post/gei-ni-de-wang-zhan-tian-jia-yuan-shen-qi-dong-qi-dong-dong-hua/">
+        </link>
+        <updated>2025-02-04T04:16:20.000Z</updated>
+        <content type="html"><![CDATA[<p>把以下css添加到你的网站即可</p>
+<pre><code class="language-css">&lt;style&gt;
+body:after {
+   content: &quot; &quot;;
+   position: fixed;
+   inset: 0;
+   background-color: white;
+   z-index: 999;
+   background-image: url(https://cdn.jsdelivr.net/gh/ix520/file@main/img/yuanshen.svg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: 30%;
+   animation: fadeOut 3s;
+   animation-fill-mode: forwards;
+   -webkit-transition: fadeOut 3s;
+   transition: fadeOut 3s;
+   pointer-events: none;
+}
+@keyframes fadeOut {
+ 50% {
+   opacity: 1;
+ }
+
+ 100% {
+   opacity: 0;
+ }
+}
+&lt;/style&gt;
+</code></pre>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[虚拟主机/serv00 部署反代 ]]></title>
+        <id>https://lovenan.me/post/xu-ni-zhu-ji-serv00-bu-shu-fan-dai/</id>
+        <link href="https://lovenan.me/post/xu-ni-zhu-ji-serv00-bu-shu-fan-dai/">
+        </link>
+        <updated>2025-02-04T00:35:54.000Z</updated>
+        <content type="html"><![CDATA[<p>起因是 jsdelivr 现在在国内并不友好，也不想用网上找的镜像链接，找的很多代理源码也不怎么好用或者不能用，所以就出了现在的教程，和非常简单的代码。<br>
+本期使用 serv00 无图教程演示，其他虚拟主机同理。<br>
+首先下载源码:<br>
+<a href="https://github.com/ix520/PHP-Proxy">GitHub</a><br>
+<a href="https://github.com/ix520/PHP-Proxy/archive/refs/heads/main.zip">GitHub 直接下载</a><br>
+<a href="https://api.lovenan.me/git/ix520/PHP-Proxy/archive/refs/heads/main.zip">通过本教程代理的GitHub直接下载</a></p>
+<p>下载好源码，把 .htaccess 与 index.php 上传到 serv00 或虚拟主机的目录，就可以通过你的域名进行访问了。<br>
+例如原链接是<a href="https://cdn.jsdelivr.net/gh/ix520/images/1719927899066.jpg">https://cdn.jsdelivr.net/gh/ix520/images/1719927899066.jpg</a><br>
+把 https://cdn.jsdelivr.net/ 替换为你的域名<br>
+现在就可以通过 http(s)😕/你的域名/gh/ix520/images/1719927899066.jpg 来进行访问。</p>
+<p>示例:<a href="https://api.lovenan.me/cdn/gh/ix520/images/1719927899066.jpg">https://api.lovenan.me/cdn/gh/ix520/images/1719927899066.jpg</a></p>
+<p>如果你无法配置伪静态，就像有的虚拟主机不支持，你也可以通过 ?url= 参数来访问，<br>
+示例:<a href="https://api.lovenan.me/cdn/?url=gh/ix520/images/1719927899066.jpg">https://api.lovenan.me/cdn/?url=gh/ix520/images/1719927899066.jpg</a><br>
+同理，你也可以把源码里面的链接替换成其他链接，如 github ，这样就可以代理 github 了。<br>
+也可以有更多玩法，例如 github 下载加速等。<br>
+好了，这个稀里糊涂的教程就到这里了。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[启用新博客]]></title>
+        <id>https://lovenan.me/post/qi-yong-xin-bo-ke/</id>
+        <link href="https://lovenan.me/post/qi-yong-xin-bo-ke/">
+        </link>
+        <updated>2025-02-01T08:20:59.000Z</updated>
+        <content type="html"><![CDATA[<!-- more -->
+<figure data-type="image" tabindex="1"><img src="https://lovenan.me/post-images/1738398117886.jpg" alt="" loading="lazy"></figure>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[友情链接]]></title>
+        <id>https://lovenan.me/post/you-qing-lian-jie/</id>
+        <link href="https://lovenan.me/post/you-qing-lian-jie/">
+        </link>
+        <updated>2025-02-01T07:04:14.000Z</updated>
+        <content type="html"><![CDATA[<pre><code>&lt;a href=&quot;https://icp.gov.moe/?keyword=20256661&quot; target=&quot;_blank&quot;&gt;萌ICP备20256661号&lt;/a&gt;
+</code></pre>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[你好]]></title>
+        <id>https://lovenan.me/post/ni-hao/</id>
+        <link href="https://lovenan.me/post/ni-hao/">
+        </link>
+        <updated>2025-02-01T06:57:39.000Z</updated>
+        <content type="html"><![CDATA[<p>你好</p>
+]]></content>
+    </entry>
+</feed>
